@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.nav{
+    width: 20%;
+    background-color: grey;
+}
+
+.second-container{
+    display:flex;
+    height: 100vh;
+    width:80%;
+    flex-direction:column;
+}
+
+.header{
+    height: 150px;
+    background-color:greenyellow;
+}
+
+.third-container{
+    display:flex;
+    height: 100vh;
+    width:100%;
+}
+
+.article{
+    width:80%;
+}
+
+.aside{
+    width:20%;
+    background-color:coral;
+}
+
+.footer{
+    height: 150px;
+    background-color:greenyellow;
+}
